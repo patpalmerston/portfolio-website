@@ -684,6 +684,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.main.main1 {
+				display: flex;
+				margin: 1.5rem 0;
+				width: 100%;
+			}
+	
+			.image.main.main1 img {
+					width: 50%;
+				}
+		
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1135,7 +1146,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/NorCal-Ocean.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
