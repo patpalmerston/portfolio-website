@@ -173,25 +173,27 @@
                 <!-- Contact -->
                 <article id="contact">
                     <h2 class="major">Contact</h2>
-                    <form method="GET" action="mailto:patpalmerston@gmail.com">
+                    <form action="https://formspree.io/patpalmerston@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field half">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" id="name" />
+                                <input type="text" name="name" id="name" class='name'/>
                             </div>
                             <div class="field half">
                                 <label for="email">Email</label>
-                                <input type="text" name="email" id="email" />
+                                <input type="text" name="email" id="email" class='email' />
                             </div>
                             <div class="field">
                                 <label for="message">Message</label>
                                 <textarea
                                     name="message"
                                     id="message"
+                                    class='message'
                                     rows="4"
                                 ></textarea>
                             </div>
                         </div>
+                        <div class="status"></div>
                         <ul class="actions">
                             <li>
                                 <input
@@ -612,5 +614,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script src="./assets/js/contact.js" />
     </body>
 </html>
