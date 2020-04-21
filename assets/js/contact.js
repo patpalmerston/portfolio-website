@@ -1,8 +1,8 @@
 console.log('contact');
 $(document).ready(function () {
-    $('.primary').click(function (event) {
+    $('.submit').click(function (event) {
         event.preventDefault();
-        // console.log('clicked');
+        console.log('clicked');
 
         // const name = $('#name').val();
         // const email = $('#email').val();
