@@ -1791,5 +1791,21 @@ body.is-preload #footer {
 .skill {
     width: 30%;
     text-align: center;
-    margin-bottom: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.iconify {
+    width: 2rem;
+    height: 2rem;
+}
+
+.skill.redux {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: -1rem;
+}
+
+.skill.redux p {
+    margin-top: -1rem;
 }
